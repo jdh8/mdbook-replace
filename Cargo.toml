@@ -1,0 +1,15 @@
+[package]
+name = "mdbook-replace"
+version = "0.1.0"
+edition = "2024"
+authors = ["Chen-Pang He (https://jdh8.org)"]
+description = "mdBook preprocessor that simply replaces text"
+repository = "https://github.com/jdh8/mdbook-replace"
+license = "MIT"
+categories = ["template-engine", "text-processing"]
+keywords = ["mdbook", "reprocessor", "text", "replace"]
+
+[dependencies]
+anyhow = "1.0.100"
+mdbook-preprocessor = "0.5.1"
+serde_json = "1.0.145"
